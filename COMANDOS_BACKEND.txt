@@ -40,3 +40,8 @@ Abrir o package json e no scripts adicionar:
 o que significa?
 no comando start, deve iniciar um json server observando o arquivo db.json
 que está rodando na porta 3001(pode ser qualquer outra porta)
+
+05. CRIAR O REPOSITORIO
+crie um repositorio para o projeto no github e depois incie ele no VS Code
+
+git remote add origin <cole aqui o link do repositorio>

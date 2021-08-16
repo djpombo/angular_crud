@@ -1,0 +1,21 @@
+01. INSTALAR O CLI DO ANGULAR
+
+Se nunca foi criado, para criar o CLI
+
+npm i -g @angular/cli
+
+02. CRIAR NOVO PROJETO
+
+para ter acesso a todos os comandos do angular cli, basta entrar com:
+
+ng
+
+para criar um novo projeto angular:
+
+ng new <nome do projeto>
+
+se o projeto for pequeno e não quiser instalar testes e mais uma cacetada de coisa
+
+ng new <nome do projeto> --minimal
+
+ex: ng new frontend --minimal
