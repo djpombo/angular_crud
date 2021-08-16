@@ -1,0 +1,42 @@
+01. BACKEND
+
+dentro da pasta backend:
+
+npm init -y
+
+vai criar o arquivo package.json
+
+02. CRIAR O "SERVIDOR" JSON
+
+npm i json-server
+
+03. CRIAR O ARQUIVO db.json e montar um obejto json dentro dele:
+exemplo:
+{
+    "produtos": [
+        {
+            "id": 1,
+            "name": "Caneta BIC preta",
+            "price": 1.99
+        },
+        {
+            "id": 2,
+            "name": "Cartucho Tinta HP",
+            "price": 79.99
+        },
+        {
+            "id": 3,
+            "name": "Mouse 900 DPI",
+            "price": 29.99
+        }
+    ]
+}
+
+04. EDITAR O PACKAGE JSON PARA ESCUTAR ESTE DB
+
+Abrir o package json e no scripts adicionar:
+"start": ""json-server --watch db.json --port 3001"
+
+o que significa?
+no comando start, deve iniciar um json server observando o arquivo db.json
+que está rodando na porta 3001(pode ser qualquer outra porta)

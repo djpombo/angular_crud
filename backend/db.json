@@ -1,0 +1,19 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "name": "Caneta BIC preta",
+            "price": 1.99
+        },
+        {
+            "id": 2,
+            "name": "Cartucho Tinta HP",
+            "price": 79.99
+        },
+        {
+            "id": 3,
+            "name": "Mouse 900 DPI",
+            "price": 29.99
+        }
+    ]
+}
